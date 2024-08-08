@@ -1,0 +1,22 @@
+.w-small{
+    width: 250px;
+}
+/* .star::before{
+    content: '';
+    width: 75px;
+    height:4px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.star::after{
+    content: '';
+    width: 75px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+} */
+

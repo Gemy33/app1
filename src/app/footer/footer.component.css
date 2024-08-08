@@ -1,0 +1,19 @@
+.bg-footer{
+    background-color: #2C3E50;
+}
+.icons i{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red ; */
+    margin-left: 5px; 
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+   border: solid 1px white;
+   border-radius: 50%;
+}
+.bg-end{
+    background-color: #1A252F;
+}

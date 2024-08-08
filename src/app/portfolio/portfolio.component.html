@@ -1,0 +1,53 @@
+<div class="portfolio mt-5 py-5 ">
+    <div class="container">
+        <h2 class="pt-5 mt-3 fw-bold text-center fs-1">PORTFOILO COMPONENT</h2>
+        <div class="d-flex py-3 justify-content-center align-items-center"> 
+            <div class="befor bg-dark"></div>
+            <i class="fa fa-star fw-bold  ms-3 me-3"></i>
+            <div class="after bg-dark"></div>
+        </div>
+        <div class="row g-md-5 g-4">
+            <div class="col-lg-4 col-md-6   ">
+                <div (click)="show()" (click)="show_img(0)"   class="image ">
+                    <img #item   src="./assets/poert1.png"  class="rounded-2 w-100" alt="poert1">
+                    <div #layer  class="layer  text-white   "><span class="mb-3">+</span></div>
+                </div>
+            </div>
+            <div  class="col-lg-4 col-md-6    ">
+                <div (click)="show()" (click)="show_img(1)" class="image">
+                    <img #item src="./assets/port2.png"  class="rounded-2 w-100" alt="port2">
+                    <div #layer  class="layer  text-white   "><span class="mb-3">+</span></div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6   ">
+                <div  (click)="show()" (click)="show_img(2)" class="image">
+                    <img #item src="./assets/port3.png"  class="rounded-2 w-100" alt="port3">
+                    <div #layer  class="layer  text-white   "><span class="mb-3">+</span></div>
+                </div>
+            </div>
+            <div  class="col-lg-4 col-md-6   ">
+                <div (click)="show()" (click)="show_img(3)" class="image">
+                    <img #item src="./assets/poert1.png"  class="rounded-2 w-100" alt="poert1">
+                    <div #layer  class="layer  text-white   "><span class="mb-3">+</span></div>
+                </div>
+            </div>
+            <div  class="col-lg-4 col-md-6   ">
+                <div (click)="show()" (click)="show_img(4)" class="image">
+                    <img #item src="./assets/port2.png"  class="rounded-2 w-100" alt="port2">
+                    <div #layer  class="layer  text-white   "><span class="mb-3">+</span></div>
+                </div>
+            </div>
+            <div   class="col-lg-4 col-md-6   ">
+                <div (click)="show()" (click)="show_img(5)" class="image">
+                    <img #item src="./assets/port3.png"  class="rounded-2 w-100" alt="port3">
+                    <div #layer  class="layer  text-white   "><span class="mb-3">+</span></div>
+                </div>
+            </div>
+        </div>     
+    </div>
+</div>
+<div  #fixed (click)="disapper()" class="fixed d-none ">
+    
+        <img cli  [src]="sorce" class=" stop w-50  position-fixed top-50 start-50  translate-middle " alt="">
+   
+</div>

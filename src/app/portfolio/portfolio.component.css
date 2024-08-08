@@ -1,0 +1,47 @@
+.layer{
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 150px !important;
+    opacity: 0;
+    transition: all .5s;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transition: ; */
+
+}
+
+.image:hover .layer
+{
+    opacity: 1;
+    background-color:  #1ABC9C;
+    border-radius: 5px;
+
+}
+.image
+{
+    cursor: pointer;
+    position: relative;
+} 
+.fixed{ 
+    z-index:9999 ;
+    background-color: rgba(0, 0, 255, 0.178);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+@media (max-width:768px) {
+    .stop
+    {
+        width: 90% !important;
+        margin: auto !important;
+    }
+
+}
